@@ -4,16 +4,16 @@ import { Image } from './images';
 @Component({
   selector: 'pg-fullview',
   template: `
-    <div *ngIf="image" (click)="close.emit()" class="container">
+    <div *ngIf="_image" (click)="close.emit()" class="container">
       <div (click)="close.emit()" class="close"></div>
-      <div (click)="$event.stopPropagation(); previous.emit(image)" class="arrow-left"></div>
+      <div (click)="$event.stopPropagation(); previous.emit(_image)" class="arrow-left"></div>
       <img
-        src="{{ image.name.replace('-l', '') }}.jpg"
-        [alt]="image.alt"
+        src="{{ _image.name.replace('-l', '') }}.jpg"
+        [alt]="_image.alt"
         (load)="loading = false"
       />
       <pg-spinner *ngIf="loading"></pg-spinner>
-      <div (click)="$event.stopPropagation(); next.emit(image)" class="arrow-right"></div>
+      <div (click)="$event.stopPropagation(); next.emit(_image)" class="arrow-right"></div>
     </div>
   `,
   styles: [
@@ -109,9 +109,13 @@ import { Image } from './images';
   ],
 })
 export class FullviewComponent {
+  _image!: Image;
   loading = true;
 
-  @Input() image: Image | null = null;
+  @Input() set image(image: Image) {
+    this.loading = true;
+    this._image = image;
+  }
   @Output() close = new EventEmitter<void>();
   @Output() previous = new EventEmitter<Image>();
   @Output() next = new EventEmitter<Image>();
