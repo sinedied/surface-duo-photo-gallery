@@ -8,7 +8,7 @@ The [`css` branch](https://github.com/sinedied/surface-duo-photo-gallery/tree/cs
 
 The `main` branch however uses the npm package [ngx-foldable](https://www.npmjs.com/package/ngx-foldable) that provides directives to adapt the design to foldable devices with minimal changes.
 
-You can view the demo [here](https://sinedied.github.io/surface-duo-photo-gallery).
+You can view the demo [here](https://sinedied.github.io/surface-duo-photo-gallery/).
 
 Read more about how this sample works on the [Surface Duo blog](TODO).
 
