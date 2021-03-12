@@ -1,27 +1,19 @@
-# SurfaceDuoPhotoGallery
+# Surface Duo Photo Gallery
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+> This repo is an Angular re-implementation of the [Surface Duo Photo Gallery sample](https://github.com/foldable-devices/demos/tree/master/photo-gallery)
 
-## Development server
+## About this sample
+
+The [`css` branch](https://github.com/sinedied/surface-duo-photo-gallery/tree/css/photo-gallery) contains an implementation that uses CSS to hide and show the various components, depending on the foldable state of the application, in the same way that the reference sample works. 
+
+The `main` branch however uses the npm package [ngx-foldable](https://www.npmjs.com/package/ngx-foldable) that provides directives to adapt the design to foldable devices with minimal changes.
+
+You can view the demo [here](https://sinedied.github.io/surface-duo-photo-gallery).
+
+Read more about how this sample works on the [Surface Duo blog](TODO).
+
+## How to use this sample
+
+First clone the repo on your machine, then run `npm install` to install packages.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
