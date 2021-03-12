@@ -3,19 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './gallery.component';
-import { DetailImageComponent } from './detail-image.component';
-import { DetailContainerComponent } from './detail-container.component';
-import { FullviewContainerComponent } from './fullview-container.component';
+import { DetailsComponent } from './details.component';
+import { DetailsImageComponent } from './details-image.component';
+import { FullviewComponent } from './fullview.component';
 import { SpinnerComponent } from './spinner.component';
+import { FoldComponent } from './fold.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    DetailImageComponent,
-    DetailContainerComponent,
-    FullviewContainerComponent,
-    SpinnerComponent
+    DetailsComponent,
+    DetailsImageComponent,
+    FullviewComponent,
+    SpinnerComponent,
+    FoldComponent
   ],
   imports: [
     BrowserModule
