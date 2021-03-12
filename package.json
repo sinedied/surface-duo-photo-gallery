@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href='surface-duo-photo-gallery'"
+    "build": "ng build --prod --base-href='/surface-duo-photo-gallery/'"
   },
   "private": true,
   "dependencies": {
