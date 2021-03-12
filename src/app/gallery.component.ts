@@ -6,9 +6,9 @@ import { Image } from './images';
   template: `
     <figure *ngFor="let image of images; trackBy: trackByName">
       <picture (click)="select.emit(image)">
-        <source srcset="assets/{{image.name}}.webp" type="image/webp" />
+        <source srcset="{{image.name}}.webp" type="image/webp" />
         <img
-          src="assets/{{ image.name }}.jpg"
+          src="{{ image.name }}.jpg"
           [alt]="image.alt"
           class="gallery-img"
         />

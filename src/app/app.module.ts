@@ -8,6 +8,8 @@ import { DetailsImageComponent } from './details-image.component';
 import { FullviewComponent } from './fullview.component';
 import { SpinnerComponent } from './spinner.component';
 import { FoldComponent } from './fold.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { FoldComponent } from './fold.component';
     FoldComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

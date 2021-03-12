@@ -8,7 +8,7 @@ import { Image } from './images';
       <div (click)="close.emit()" class="close"></div>
       <div (click)="$event.stopPropagation(); previous.emit(image)" class="arrow-left"></div>
       <img
-        src="assets/{{ image.name.replace('-l', '') }}.jpg"
+        src="{{ image.name.replace('-l', '') }}.jpg"
         [alt]="image.alt"
         (load)="loading = false"
       />

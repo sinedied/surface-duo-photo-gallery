@@ -7,7 +7,7 @@ import { Image } from './images';
     <div id="wrapper">
       <pg-spinner *ngIf="loading"></pg-spinner>
       <img [hidden]="loading"
-      src="assets/{{ _image.name.replace('-l', '') }}.jpg"
+      src="{{ _image.name.replace('-l', '') }}.jpg"
       [alt]="_image.alt"
       (load)="loading = false"
       />
