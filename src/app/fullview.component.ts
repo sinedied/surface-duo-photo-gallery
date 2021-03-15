@@ -109,10 +109,10 @@ import { Image } from './images';
   ],
 })
 export class FullviewComponent {
-  _image!: Image;
+  _image: Image | null = null;
   loading = true;
 
-  @Input() set image(image: Image) {
+  @Input() set image(image: Image | null) {
     this.loading = true;
     this._image = image;
   }
