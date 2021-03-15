@@ -104,6 +104,7 @@ import { Image } from './images';
       pg-spinner {
         position: absolute;
         top: 50%;
+        transform: translateY(-50%);
       }
     `,
   ],
