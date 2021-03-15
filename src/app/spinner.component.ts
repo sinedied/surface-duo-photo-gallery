@@ -25,6 +25,9 @@ import { Component } from '@angular/core';
       :host {
         width: 65px;
         height: 65px;
+      }
+
+      svg {
         animation: rotator 1.4s linear infinite;
       }
 
