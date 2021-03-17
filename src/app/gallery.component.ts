@@ -40,15 +40,15 @@ import { Image } from './images';
         }
       }
 
-      &::-webkit-scrollbar {
+      :host::-webkit-scrollbar {
         width: 11px;
       }
 
-      &::-webkit-scrollbar-track {
+      :host::-webkit-scrollbar-track {
         background: var(--scrollbar-background);
       }
 
-      &::-webkit-scrollbar-thumb {
+      :host::-webkit-scrollbar-thumb {
         background-color: var(--scrollbar-thumb);
         border-radius: 10px;
         border: 3px solid var(--scrollbar-background);
