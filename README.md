@@ -4,13 +4,13 @@
 
 ## About this sample
 
-The [`css` branch](https://github.com/sinedied/surface-duo-photo-gallery/tree/css/photo-gallery) contains an implementation that uses CSS to hide and show the various components, depending on the foldable state of the application, in the same way that the reference sample works. 
+The [`css` branch](https://github.com/sinedied/surface-duo-photo-gallery/tree/css) contains an implementation that uses CSS to hide and show the various components, depending on the foldable state of the application, in the same way that the reference sample works. 
 
 The `main` branch however uses the npm package [ngx-foldable](https://www.npmjs.com/package/ngx-foldable) that provides directives to adapt the design to foldable devices with minimal changes.
 
 You can view the demo [here](https://sinedied.github.io/surface-duo-photo-gallery/).
 
-Read more about how this sample works on the [Surface Duo blog](TODO).
+Read more about how this sample works on the [Surface Duo blog](https://devblogs.microsoft.com/surface-duo/?WT.mc_id=javascript-9776-yolasors).
 
 ## How to use this sample
 
