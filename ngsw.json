@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1615975197776,
+  "timestamp": 1615975645538,
   "index": "/surface-duo-photo-gallery/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/surface-duo-photo-gallery/favicon.ico",
         "/surface-duo-photo-gallery/index.html",
-        "/surface-duo-photo-gallery/main.cd8eef00d584afdefc8b.js",
+        "/surface-duo-photo-gallery/main.4f69a82db16fb62426ee.js",
         "/surface-duo-photo-gallery/manifest.webmanifest",
         "/surface-duo-photo-gallery/polyfills.00096ed7d93ed26ee6df.js",
         "/surface-duo-photo-gallery/runtime.7b63b9fd40098a2e8207.js",
@@ -418,8 +418,8 @@
     "/surface-duo-photo-gallery/assets/wave.jpg": "0c19fbfb9fea7875e1f040996f80b546c340f3d4",
     "/surface-duo-photo-gallery/assets/wave.webp": "7d7962ba800fab27a8e63f06f5a661d362bd2a0a",
     "/surface-duo-photo-gallery/favicon.ico": "3b64b3d27d8a7cde3774bd073dc3332a294dff81",
-    "/surface-duo-photo-gallery/index.html": "b0450f9934a60083d393331c5551677cfc66b514",
-    "/surface-duo-photo-gallery/main.cd8eef00d584afdefc8b.js": "86f56b2f81681a65222b511839bcc43fab289ca2",
+    "/surface-duo-photo-gallery/index.html": "8381c4ee472bb1d1b6ac1c41cf44a0c474683680",
+    "/surface-duo-photo-gallery/main.4f69a82db16fb62426ee.js": "76b4bf5fe769c6249d35ffe790eefb9fb8069e1c",
     "/surface-duo-photo-gallery/manifest.webmanifest": "4005299ecdb991d2e12bdc49be20f7778e91ec64",
     "/surface-duo-photo-gallery/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/surface-duo-photo-gallery/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
