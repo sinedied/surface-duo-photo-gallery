@@ -60,23 +60,6 @@ import { Image } from './images';
         object-fit: cover;
         display: block;
       }
-
-      @media (screen-spanning: single-fold-vertical) {
-        :host {
-          width: env(fold-left);
-          height: 100vh;
-        }
-      }
-
-      @media (screen-spanning: single-fold-horizontal) {
-        :host {
-          width: 100vw;
-          height: var(
-            --zenbook-span1-height,
-            calc(100vh - env(fold-top) - env(fold-height))
-          );
-        }
-      }
     `,
   ],
 })

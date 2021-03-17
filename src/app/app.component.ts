@@ -4,41 +4,31 @@ import { Image, images } from './images';
 @Component({
   selector: 'pg-root',
   template: `
-    <pg-gallery [images]="images" (select)="setImage($event)"></pg-gallery>
-    <pg-fold></pg-fold>
-    <pg-details [image]="currentImage"></pg-details>
-    <pg-fullview
-      [image]="currentImage"
-      (close)="closeImage()"
-      (previous)="previousImage($event)"
-      (next)="nextImage($event)"
-    ></pg-fullview>
+    <div fdSplitLayout="flex reverse">
+      <pg-gallery
+        fdWindow="0"
+        [images]="images"
+        (select)="setImage($event)"
+      ></pg-gallery>
+      <pg-details
+        fdWindow="1"
+        *fdIfSpan="'multi'"
+        [image]="currentImage"
+      ></pg-details>
+      <pg-fullview
+        *fdIfSpan="'none'"
+        [image]="currentImage"
+        (close)="closeImage()"
+        (previous)="previousImage($event)"
+        (next)="nextImage($event)"
+      ></pg-fullview>
+    </div>
   `,
   styles: [
     `
       :host {
         width: 100vw;
         height: 100vh;
-        display: flex;
-        flex-direction: row;
-      }
-
-      @media (screen-spanning: single-fold-vertical) {
-        :host {
-          flex-direction: row;
-        }
-      }
-
-      @media (screen-spanning: single-fold-horizontal) {
-        :host {
-          flex-direction: column-reverse;
-        }
-      }
-
-      @media (screen-spanning: none) {
-        :host {
-          flex-direction: row;
-        }
       }
     `,
   ],

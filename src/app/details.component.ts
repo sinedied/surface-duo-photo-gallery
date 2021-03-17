@@ -14,8 +14,6 @@ import { Image } from './images';
   styles: [
     `
       :host {
-        height: 0vh;
-        width: 0vw;
         background-color: black;
         color: white;
         overflow: hidden;
@@ -35,20 +33,6 @@ import { Image } from './images';
         font-size: 2em;
         text-align: center;
         margin-top: 20px;
-      }
-
-      @media (screen-spanning: single-fold-vertical) {
-        :host {
-          height: 100vh;
-          width: calc(100vw - env(fold-left) - env(fold-width));
-        }
-      }
-
-      @media (screen-spanning: single-fold-horizontal) {
-        :host {
-          height: var(--zenbook-span2-height, env(fold-top));
-          width: 100vw;
-        }
       }
     `,
   ],

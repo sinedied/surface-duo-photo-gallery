@@ -31,13 +31,6 @@ import { Image } from './images';
         align-items: center;
       }
 
-      @media (screen-spanning: single-fold-horizontal),
-        (screen-spanning: single-fold-vertical) {
-        .container {
-          display: none;
-        }
-      }
-
       .arrow-left,
       .arrow-right {
         width: 30px;
