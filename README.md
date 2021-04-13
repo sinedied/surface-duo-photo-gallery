@@ -10,7 +10,7 @@ The `main` branch however uses the npm package [ngx-foldable](https://www.npmjs.
 
 You can view the demo [here](https://sinedied.github.io/surface-duo-photo-gallery/).
 
-Read more about how this sample works on the [Surface Duo blog](https://devblogs.microsoft.com/surface-duo/?WT.mc_id=javascript-9776-yolasors).
+Read more about how this sample works on the [Surface Duo blog](https://devblogs.microsoft.com/surface-duo/dual-screen-web-angular/?WT.mc_id=javascript-9776-yolasors).
 
 ## How to use this sample
 
