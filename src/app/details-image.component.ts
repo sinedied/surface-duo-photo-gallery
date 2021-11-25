@@ -27,7 +27,7 @@ import { Image } from './images';
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
       }
 
