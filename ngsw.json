@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1654267808310,
+  "timestamp": 1669738724782,
   "index": "/surface-duo-photo-gallery/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/surface-duo-photo-gallery/favicon.ico",
         "/surface-duo-photo-gallery/index.html",
-        "/surface-duo-photo-gallery/main.d11fab3c0fcca485.js",
+        "/surface-duo-photo-gallery/main.960f76b54ef38e16.js",
         "/surface-duo-photo-gallery/manifest.webmanifest",
-        "/surface-duo-photo-gallery/polyfills.44d796d3ac27b417.js",
-        "/surface-duo-photo-gallery/runtime.3fdb389e90cad635.js",
+        "/surface-duo-photo-gallery/polyfills.c61b307a9f36cb39.js",
+        "/surface-duo-photo-gallery/runtime.4267afc52eaf16cc.js",
         "/surface-duo-photo-gallery/styles.dd0a05cf3c13f35f.css"
       ],
       "patterns": []
@@ -418,11 +418,11 @@
     "/surface-duo-photo-gallery/assets/wave.jpg": "0c19fbfb9fea7875e1f040996f80b546c340f3d4",
     "/surface-duo-photo-gallery/assets/wave.webp": "7d7962ba800fab27a8e63f06f5a661d362bd2a0a",
     "/surface-duo-photo-gallery/favicon.ico": "3b64b3d27d8a7cde3774bd073dc3332a294dff81",
-    "/surface-duo-photo-gallery/index.html": "d3e82865dacef0810d1be01c14eb75027bf1ef88",
-    "/surface-duo-photo-gallery/main.d11fab3c0fcca485.js": "8ec08af36fd25979da20f2e286339356cc065e54",
+    "/surface-duo-photo-gallery/index.html": "203444525e2289320d3fce4fa53f6727906e6e99",
+    "/surface-duo-photo-gallery/main.960f76b54ef38e16.js": "4daf952bddf074fc019c03a7496dfd42664ce25d",
     "/surface-duo-photo-gallery/manifest.webmanifest": "4005299ecdb991d2e12bdc49be20f7778e91ec64",
-    "/surface-duo-photo-gallery/polyfills.44d796d3ac27b417.js": "59f5054936518536c450c1cd1be8e867b8cde757",
-    "/surface-duo-photo-gallery/runtime.3fdb389e90cad635.js": "50e379008866a212ed084188f8722227cb85edba",
+    "/surface-duo-photo-gallery/polyfills.c61b307a9f36cb39.js": "b49ae63ea84a8ea5fe2daf29bf8d66fa87e356a2",
+    "/surface-duo-photo-gallery/runtime.4267afc52eaf16cc.js": "4c0236d048aa816859290ed709c0e9b4555c47df",
     "/surface-duo-photo-gallery/styles.dd0a05cf3c13f35f.css": "b52fc4a87a2e180805c96b0ec10b59e58fc3005c"
   },
   "navigationUrls": [
